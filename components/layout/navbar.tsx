@@ -58,7 +58,7 @@ const Navbar=() =>{
           ))}
 
           <Button
-            asChild
+            
             className="rounded-full bg-orange-500 hover:bg-orange-600 "
           >
             <a href="tel:+8801700000000" className="flex items-center gap-1">
@@ -70,7 +70,7 @@ const Navbar=() =>{
 
         {/* Mobile Menu */}
         <Sheet open={open} onOpenChange={setOpen}>
-          <SheetTrigger asChild>
+          <SheetTrigger >
             <Button
               variant="ghost"
               size="icon"
@@ -84,7 +84,7 @@ const Navbar=() =>{
           <SheetContent side="right" className="w-[300px] sm:w-[350px]">
             <div className="mt-10 flex flex-col gap-6">
               {navLinks.map((link) => (
-                <SheetClose asChild key={link.href}>
+                <SheetClose  key={link.href}>
                   <Link
                     href={link.href}
                     className="text-lg font-medium transition hover:text-orange-500"
@@ -94,9 +94,9 @@ const Navbar=() =>{
                 </SheetClose>
               ))}
 
-              <SheetClose asChild>
+              <SheetClose >
                 <Button
-                  asChild
+                  
                   className="mt-2 w-full bg-orange-500 hover:bg-orange-600"
                 >
                   <a href="tel:+8801700000000" className="flex items-center gap-0.5 font-bold">

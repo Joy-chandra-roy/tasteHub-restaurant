@@ -41,7 +41,7 @@ export default function CtaSection() {
           <div className="mt-8 flex flex-wrap justify-center gap-4">
 
             <Button
-              asChild
+              
               size="lg"
               className="rounded-full bg-white px-7 text-orange-500 hover:bg-white/90"
             >
@@ -52,7 +52,7 @@ export default function CtaSection() {
             </Button>
 
             <Button
-              asChild
+             
               size="lg"
               variant="outline"
               className="rounded-full border-white/40 bg-white/10 px-7 text-white hover:bg-white hover:text-orange-500"
