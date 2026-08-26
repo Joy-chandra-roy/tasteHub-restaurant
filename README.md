@@ -2,6 +2,14 @@
 
 A modern, responsive, and animated restaurant landing page built with Next.js, TypeScript, Tailwind CSS, Shadcn UI, and Motion.
 
+## 🔗 Live Demo
+
+[View Live Website](https://vercel.com/joy-chandra-roys-projects/taste-hub-restaurant)
+
+## Screenshot
+![project screenshot](images/taste-hub-restaurant.png)
+
+
 ## ✨ Features
 
 - Responsive Navbar
