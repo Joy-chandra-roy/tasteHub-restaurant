@@ -7,7 +7,7 @@ A modern, responsive, and animated restaurant landing page built with Next.js, T
 [View Live Website](https://taste-hub-restaurant.vercel.app/)
 
 ## Screenshot
-![project screenshot](images/taste-hub-restaurant.png)
+![project screenshot](./public/images/taste-hub-restaurant.png)
 
 
 ## ✨ Features
