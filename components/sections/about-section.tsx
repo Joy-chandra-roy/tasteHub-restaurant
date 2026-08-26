@@ -27,9 +27,9 @@ export default function AboutSection() {
           transition={{ duration: 0.7 }}
           className="relative mx-auto w-full max-w-lg"
         >
-          <div className="relative aspect-[4/5] overflow-hidden rounded-3xl">
+          <div className="relative aspect-4/5 overflow-hidden rounded-3xl">
             <Image
-              src="/images/about-food.jfif"
+              src="/images/about-food.jpg"
               alt="Restaurant food"
               fill
               className="object-cover"
