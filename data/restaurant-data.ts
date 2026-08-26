@@ -78,3 +78,5 @@ export const testimonials = [
       "Amazing experience! The staff were friendly and the food arrived quickly. Highly recommended.",
   },
 ];
+
+export const restaurantWhatsAppNumber = "8801761604702";

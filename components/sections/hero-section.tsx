@@ -78,7 +78,7 @@ export default function HeroSection() {
             className="mt-8 flex flex-wrap justify-center gap-4"
           >
             <Button
-              asChild
+              
               size="lg"
               className="rounded-full bg-orange-500 px-7 hover:bg-orange-600"
             >
@@ -89,7 +89,7 @@ export default function HeroSection() {
             </Button>
 
             <Button
-              asChild
+             
               size="lg"
               variant="outline"
               className="rounded-full border-white/40 bg-white/10 px-7 text-white hover:bg-white hover:text-black"
