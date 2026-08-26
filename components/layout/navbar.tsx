@@ -58,7 +58,7 @@ const Navbar = () => {
           ))}
 
           <Button className="rounded-full bg-orange-500 hover:bg-orange-600 ">
-            <a href="tel:+8801700000000" className="flex items-center gap-1">
+            <a href="tel:+8801761604702" className="flex items-center gap-1">
               <Phone className="" />
               Call Now
             </a>
