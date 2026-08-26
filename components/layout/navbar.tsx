@@ -75,7 +75,7 @@ const Navbar = () => {
           </SheetTrigger>
 
           <SheetContent side="right" className="w-75 sm:w-87.5">
-            <div className="mt-10 flex flex-col gap-6">
+            <div className="mt-10 flex flex-col items-center gap-6">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
